@@ -13,11 +13,11 @@ interface Animal {
 
 
 abstract class AbstractAnimal implements Animal {
-    protected String breed; // порода
-    protected String name; // имя
-    protected Double cost; // цена в магазине
-    protected String character; // характер
-    protected LocalDate birthDate; // день рождения
+    protected String breed; 
+    protected String name; 
+    protected Double cost; 
+    protected String character; 
+    protected LocalDate birthDate; 
 
     public AbstractAnimal(String breed, String name, double cost, String character, LocalDate birthDate) {
         this.breed = breed;
