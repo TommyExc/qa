@@ -6,7 +6,7 @@ public class Purchase {
     public Purchase(int quantity, double price, double discount) {
         this.quantity = quantity;
         this.price = price;
-        this.discount = discount / 100; // преобразование процентов в десятичное число
+        this.discount = discount / 100; 
     }
     public double[] calculateTotal() {
         double totalWithoutDiscount = quantity * price;
